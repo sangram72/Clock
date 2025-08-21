@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #222;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-box {
+  background-color: #222;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+}
+
+.timer {
+  font-size: 48px;
+  font-weight: bold;
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 100px;
+  color: white;
+}
+
+.btn.start {
+  background-color: #28a745;
+}
+
+.btn.start:hover {
+  background-color: #218838;
+}
+
+.btn.reset {
+  background-color: #dc3545;
+}
+
+.btn.reset:hover {
+  background-color: #c82333;
+}
+
+.btn.halt {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.btn.halt:hover {
+  background-color: #e0a800;
+  color: #000;
+}
+
+.btn.audio {
+  background-color: #007bff;
+}
+
+.btn.audio:hover {
+  background-color: #0069d9;
+}
